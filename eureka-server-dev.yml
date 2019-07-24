@@ -1,2 +1,12 @@
 info:
   profile: dev
+  
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    
+spring:
+  port: 1001
