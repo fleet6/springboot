@@ -1,9 +1,9 @@
- eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+eureka:
+ instance:
+  hostname: localhost
+ client:
+  register-with-eureka: false
+  fetch-registry: false
     
-spring:
-  port: 10011
+server:
+ port: 10011
