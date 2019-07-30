@@ -2,6 +2,7 @@ zuul:
   routes:
     eureka-server: /eureka/**
     config-center: /config/**
+    common-client: /client/**
     
 eureka:
   client:
