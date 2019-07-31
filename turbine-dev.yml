@@ -11,5 +11,5 @@ management:
 
 turbine:
   app-config: common-client
-  cluster-name-expression: default
+  cluster-name-expression: 'default'
   combine-host-port: true
