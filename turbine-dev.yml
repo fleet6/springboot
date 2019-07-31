@@ -10,6 +10,6 @@ management:
   port: 100161
 
 turbine:
-  app-config: common-client，common-client1
+  app-config: common-client,common-client1
   cluster-name-expression: new String("default")
   combine-host-port: true
