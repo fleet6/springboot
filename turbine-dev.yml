@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10011/eureka/
+
+server:
+  port: 10016
+  
+management:
+  port: 100161
+
+turbine:
+  app-config: common-client,eureka-server
+  cluster-name-expression: default
+  combine-host-port: true
