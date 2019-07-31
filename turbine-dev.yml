@@ -10,6 +10,6 @@ management:
   port: 100161
 
 turbine:
-  app-config: common-client,eureka-server
+  app-config: common-client
   cluster-name-expression: default
   combine-host-port: true
