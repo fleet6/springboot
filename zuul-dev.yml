@@ -3,7 +3,7 @@ zuul:
     eureka-server: /eureka/**
     config-center: /config/**
     common-client: /client/**
-    common-client: /client1/**
+    common-client1: /client1/**
     
 eureka:
   client:
