@@ -5,3 +5,7 @@ eureka:
 
 server:
   port: 10018
+  
+common-client:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
