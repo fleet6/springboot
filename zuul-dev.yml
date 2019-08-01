@@ -4,6 +4,7 @@ zuul:
     config-center: /config/**
     common-client: /client/**
     common-client1: /client1/**
+    consumer: /consumer/**
     
 eureka:
   client:
